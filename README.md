@@ -5,12 +5,9 @@ beginning of my project to create ongoing wordlists based off burpsuite projects
 
 filter in burp (optional, but cleaner):
 - add what you want here, i typically filter out css, gif, png, woff, etc.
+    - probably should just add this in the tool
 - i also will keep it to in-scope items, but that's up to you
 
 # how to run:
 
 python3 wordlistr.py infile outfileName
-
-
-# Todo:
-- create a burp plugin for this
